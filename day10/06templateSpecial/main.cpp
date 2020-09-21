@@ -13,12 +13,14 @@ int compare(T a, T b)
     else
         return 0;
 }
+
+//模板特化
 template<> int compare<const char *>(const char * a,const char *b)
 {
-    cout<<"template<> int compare<const char *>"<<endl;
-    if(strcmp(a,b)>0)
+    cout << "template<> int compare<const char *>" << endl;
+    if (strcmp(a, b) > 0)
         return 1;
-    else if(strcmp(a,b)<0)
+    else if (strcmp(a, b) < 0)
         return -1;
     else
         return 0;

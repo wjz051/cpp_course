@@ -24,16 +24,22 @@ private:
 
 int main()
 {
-//    Stu s("zhansi");
-//    Stu sa[100] = {Stu("liwu"),Stu("zhaoqi")};
+   Stu s("zhansi");
+   s.dis();
+   Stu sa[100] = {Stu("liwu"),Stu("zhaoqi")};
 
 //    Stu *ps = new Stu("abc");
 //    Stu *ps = new Stu[2]{Stu("abc"),Stu("xxx")};
-    Stu *ps = new Stu[100];
+    // Stu *ps = new Stu[100];
 
-    for(int i=0; i<100; ++i)
-    {
-        ps[i].init("");
-    }
+    // for(int i=0; i<100; ++i)
+    // {
+    //     ps[i].init("");
+    // }
+
+    // for(int i=0; i<100; ++i)
+    // {
+    //     ps[i].dis();
+    // }
     return 0;
 }

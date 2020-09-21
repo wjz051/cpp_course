@@ -21,11 +21,11 @@ int main()
 
     B *pb;
     pb = dynamic_cast<B*>(p);
-    if(pb != nullptr)
+    if(pb != NULL)
         cout<<"pb-> new B"<<endl;
     C *pc;
     pc = dynamic_cast<C*>(p);
-    if(pc != nullptr)
+    if(pc != NULL)
         cout<<"pc-> new B"<<endl;
     else
         cout<<"pc = null"<<endl;
@@ -33,7 +33,7 @@ int main()
 
     D* pd;
     pd = dynamic_cast<D*>(p);
-    if(pd != nullptr)
+    if(pd != NULL)
         cout<<"pd-> new B"<<endl;
     else
         cout<<"pd = null"<<endl;

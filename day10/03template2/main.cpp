@@ -22,5 +22,6 @@ int main()
 {
     int i = 1; double j = 2.1;
     myswap(i,j);
+    cout<<i<<j<<endl;
     return 0;
 }

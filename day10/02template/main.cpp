@@ -37,7 +37,7 @@ int main()
 
     MyType mt1(1,2); MyType mt2(3,4);
     myswap(mt1,mt2);
-    cout<<mt1._x<<mt1._y<<endl;
+    cout<<mt1._x<<mt1._y<<mt2._x<<mt2._y<<endl;
 
 
 
